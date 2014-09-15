@@ -40,3 +40,45 @@ var classes = {
     // swap(1 ,2);
     // logs 2, 1
 ```
+
+
+Homework Assignment:
+<html>
+<head>
+<title>
+Javascript Class
+</title>
+</head>
+<body>
+<script>
+var firstNumber = 5;
+console.log(firstNumber);
+var secondNumber = 10;
+console.log(secondNumber);
+var firstSentence = "The Bermuda Triangle, also known as the Devil's Triangle, is a loosely defined region in the western part of the North Atlantic Ocean, where a number of aircraft and ships are said to have disappeared under mysterious circumstances.";
+console.log(firstSentence);
+var addFirstandSecond = firstNumber + secondNumber;
+console.log(addFirstandSecond);
+var addNumberandSentence = firstNumber + firstSentence;
+console.log(addNumberandSentence);
+console.log("firstSentence" - secondNumber);
+console.log(secondNumber - firstNumber);
+var classesArray = ["Javascript", "Economics", "Dynamic Metropolis", "Topics", "Designing For Touch"];
+console.log(classesArray);
+var classes = {
+    "Javascript": "Justin Donato",
+    "Economics": "Paulo Dos Santos",
+    "Dynamic Metropolis" : "Joseph Heathcott",
+    "Topics": "Jonathan Vingiano",
+    "Designing For Touch": "Luke Miller",
+};
+console.log(classes);
+
+var swap = function(first, second) {
+        console.log(second, first);
+    };
+    swap("hi","bye");
+
+</script>
+</body>
+</html>
