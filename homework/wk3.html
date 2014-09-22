@@ -22,6 +22,10 @@
           #rect.lefty {
               left: 200px;
           }
+          
+          #rect.changeborder {
+          border-radius: 100%;
+          }
 
       </style>
     </head>
@@ -43,7 +47,18 @@
 
 };
 
-misterRect.addEventListener('click', leftClickHandler);
+var changeTheBorder = function(e) {
+
+if (e.currentTarget.classList.contains('changeborder')) {
+        e.currentTarget.classList.remove('changeborder');
+    } else {
+        e.currentTarget.classList.add('changeborder');
+    }
+
+};
+
+misterRect.addEventListener('click', leftyClickHandler);
+misterRect.addEventListener('click', changeTheBorder);
 
         </script>
 
