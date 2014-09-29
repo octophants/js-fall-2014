@@ -8,3 +8,4 @@ However, I'd like to use a theme which isn't too heavily influenced by Pollock, 
 
 Here are some sketches I pulled from my digital sketchbook, which I hope to use as influences for the brushes. 
 http://a.parsons.edu/~madhs064/jportfolio/jportfolio.html
+ 
