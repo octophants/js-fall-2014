@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Homework 4</title>
+  <style>
+  
+  #rect{
+   width: 1920px; 
+   height: 1000px;
+   background: blue;
+ }
+
+ 
+ #rect.yes {
+  background: green;
+}
+
+#rect.no {
+  background: red;
+}
+
+</style>
+
+</head>
+<body>
+  <div id="rect"></div>
+
+
+  <script>
+  var number = 1;
+  while (number <= 1000) {
+    console.log(number);
+    number = number + 1;
+  }
+
+  var userQuestion = prompt ("YES or NO?");
+  var userAnswer = ('You said ' + userQuestion);
+  alert (userAnswer);
+
+  var misterRect = document.getElementById('rect');
+
+  switch (userQuestion) {
+    case "yes":
+    misterRect.classList.add('yes');
+    break;
+    case "no":
+    misterRect.classList.add('no');
+    break;
+  }
+  
+  //FizzBuzz Problem
+  
+  for (i=1; i<=100; i++) {
+
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    }
+
+    else if ( i % 3 === 0 ) { 
+      console.log("Fizz");
+    }
+
+    else if ((i % 5) === 0){
+      console.log("Buzz");
+    }
+
+    else {
+      console.log(i);
+    }
+  }
+
+
+  
+
+
+  </script>
+
+</body>
+</html>
